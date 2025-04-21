@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Organization_ModuleTest.CreateOrgWithIndustryAndTypeTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuit"/>
+          <include name="afterSuit"/>
+          <include name="createOrgWithPhnNoTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Organization_ModuleTest.CreateOrgWithIndustryAndTypeTest -->
+      <class name="Organization_ModuleTest.CreateOrgWithPhoneNumberTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuit"/>
+          <include name="afterSuit"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="createOrgWithIndAndType"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Organization_ModuleTest.CreateOrgWithPhoneNumberTest -->
+      <class name="Contact_Module.CreatewithSuppDateTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuit"/>
+          <include name="beforeSuit"/>
+          <include name="afterClass"/>
+          <include name="CreatewithSuppDateT"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Contact_Module.CreatewithSuppDateTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
