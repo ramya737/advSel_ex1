@@ -11,7 +11,10 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class WebDriver_Utility {
-	
+	/**
+	 * 
+	 * @param driver
+	 */
 public void maximizeTheWindow(WebDriver driver)
 {
 	driver.manage().window().maximize();

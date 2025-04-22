@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="5" ignored="5" total="11" passed="0" failed="1" skipped="0">
+<testng-results retried="10" ignored="10" total="23" passed="1" failed="2" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Report configuration]]>
@@ -12,6 +12,18 @@
     </line>
     <line>
       <![CDATA[Launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[Login to the appln]]>
+    </line>
+    <line>
+      <![CDATA[createOrgTest----started--]]>
+    </line>
+    <line>
+      <![CDATA[createOrgTest--succes--]]>
+    </line>
+    <line>
+      <![CDATA[Logout of the appln]]>
     </line>
     <line>
       <![CDATA[Login to the appln]]>
@@ -86,6 +98,78 @@
       <![CDATA[Logout of the appln]]>
     </line>
     <line>
+      <![CDATA[Login to the appln]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhnNoTest----started--]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhnNoTest--skipped--]]>
+    </line>
+    <line>
+      <![CDATA[Logout of the appln]]>
+    </line>
+    <line>
+      <![CDATA[Login to the appln]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhnNoTest----started--]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhnNoTest--skipped--]]>
+    </line>
+    <line>
+      <![CDATA[Logout of the appln]]>
+    </line>
+    <line>
+      <![CDATA[Login to the appln]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhnNoTest----started--]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhnNoTest--skipped--]]>
+    </line>
+    <line>
+      <![CDATA[Logout of the appln]]>
+    </line>
+    <line>
+      <![CDATA[Login to the appln]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhnNoTest----started--]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhnNoTest--skipped--]]>
+    </line>
+    <line>
+      <![CDATA[Logout of the appln]]>
+    </line>
+    <line>
+      <![CDATA[Login to the appln]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhnNoTest----started--]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhnNoTest--skipped--]]>
+    </line>
+    <line>
+      <![CDATA[Logout of the appln]]>
+    </line>
+    <line>
+      <![CDATA[Login to the appln]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhnNoTest----started--]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhnNoTest--failed--]]>
+    </line>
+    <line>
+      <![CDATA[Logout of the appln]]>
+    </line>
+    <line>
       <![CDATA[Close the browser]]>
     </line>
     <line>
@@ -95,53 +179,81 @@
       <![CDATA[Close DB connection]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-04-21T15:03:21 IST" name="Default suite" finished-at="2025-04-21T15:05:29 IST" duration-ms="128510">
+  <suite started-at="2025-04-22T11:17:29 IST" name="Default suite" finished-at="2025-04-22T11:21:16 IST" duration-ms="226677">
     <groups>
       <group name="regression">
-        <method signature="CreateNewOrgTest.createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" name="createOrgWithIndAndType" class="Organization_ModuleTest.CreateNewOrgTest"/>
+        <method signature="CreateNewOrgTest.createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" name="createOrgWithIndAndType" class="Organization_ModuleTest.CreateNewOrgTest"/>
+        <method signature="CreateNewOrgTest.createOrgWithPhnNoTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" name="createOrgWithPhnNoTest" class="Organization_ModuleTest.CreateNewOrgTest"/>
       </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateNewOrgTest.createOrgTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" name="createOrgTest" class="Organization_ModuleTest.CreateNewOrgTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-04-21T15:03:21 IST" name="Default test" finished-at="2025-04-21T15:05:29 IST" duration-ms="128510">
+    <test started-at="2025-04-22T11:17:29 IST" name="Default test" finished-at="2025-04-22T11:21:16 IST" duration-ms="226677">
       <class name="Organization_ModuleTest.CreateNewOrgTest">
-        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:03:20 IST" name="beforeSuit" finished-at="2025-04-21T15:03:21 IST" duration-ms="721" status="PASS">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:17:28 IST" name="beforeSuit" finished-at="2025-04-22T11:17:29 IST" duration-ms="696" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Configure the DB:Connect]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuit -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:03:21 IST" name="beforeTest" finished-at="2025-04-21T15:03:21 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:17:29 IST" name="beforeTest" finished-at="2025-04-22T11:17:29 IST" duration-ms="4" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[BT:Parallel Exe]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:03:21 IST" name="beforeClass" finished-at="2025-04-21T15:03:23 IST" duration-ms="1995" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:17:29 IST" name="beforeClass" finished-at="2025-04-22T11:17:31 IST" duration-ms="2277" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launch the browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:03:23 IST" name="beforeMethod" finished-at="2025-04-21T15:03:26 IST" duration-ms="3550" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:17:31 IST" name="beforeMethod" finished-at="2025-04-22T11:17:35 IST" duration-ms="3442" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login to the appln]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:03:26 IST" name="createOrgWithIndAndType" finished-at="2025-04-21T15:03:43 IST" duration-ms="16764" status="SKIP">
+        <test-method signature="createOrgTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:17:35 IST" name="createOrgTest" finished-at="2025-04-22T11:17:49 IST" duration-ms="14470" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgTest----started--]]>
+            </line>
+            <line>
+              <![CDATA[createOrgTest--succes--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:17:49 IST" name="afterMethod" finished-at="2025-04-22T11:17:53 IST" duration-ms="3515" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:17:53 IST" name="beforeMethod" finished-at="2025-04-22T11:17:55 IST" duration-ms="2551" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:17:55 IST" name="createOrgWithIndAndType" finished-at="2025-04-22T11:18:12 IST" duration-ms="16427" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot locate option with value: Electronics2989
+              <![CDATA[Cannot locate option with value: Electronics633
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Electronics2989
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Electronics633
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
@@ -188,31 +300,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- createOrgWithIndAndType -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:03:43 IST" name="afterMethod" finished-at="2025-04-21T15:03:45 IST" duration-ms="1603" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:18:12 IST" name="afterMethod" finished-at="2025-04-22T11:18:13 IST" duration-ms="1643" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout of the appln]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:03:45 IST" name="beforeMethod" finished-at="2025-04-21T15:03:47 IST" duration-ms="2698" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:18:13 IST" name="beforeMethod" finished-at="2025-04-22T11:18:16 IST" duration-ms="2664" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login to the appln]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:03:47 IST" name="createOrgWithIndAndType" finished-at="2025-04-21T15:04:03 IST" duration-ms="15917" status="SKIP">
+        <test-method retried="true" signature="createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:18:16 IST" name="createOrgWithIndAndType" finished-at="2025-04-22T11:18:32 IST" duration-ms="16276" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot locate option with value: Electronics1059
+              <![CDATA[Cannot locate option with value: Electronics1121
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Electronics1059
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Electronics1121
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
@@ -259,31 +371,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- createOrgWithIndAndType -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:04:03 IST" name="afterMethod" finished-at="2025-04-21T15:04:05 IST" duration-ms="1690" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:18:32 IST" name="afterMethod" finished-at="2025-04-22T11:18:34 IST" duration-ms="1608" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout of the appln]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:04:05 IST" name="beforeMethod" finished-at="2025-04-21T15:04:08 IST" duration-ms="3454" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:18:34 IST" name="beforeMethod" finished-at="2025-04-22T11:18:37 IST" duration-ms="2732" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login to the appln]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:04:08 IST" name="createOrgWithIndAndType" finished-at="2025-04-21T15:04:25 IST" duration-ms="16705" status="SKIP">
+        <test-method retried="true" signature="createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:18:37 IST" name="createOrgWithIndAndType" finished-at="2025-04-22T11:18:53 IST" duration-ms="16398" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot locate option with value: Electronics3448
+              <![CDATA[Cannot locate option with value: Electronics589
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Electronics3448
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Electronics589
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
@@ -330,31 +442,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- createOrgWithIndAndType -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:04:25 IST" name="afterMethod" finished-at="2025-04-21T15:04:27 IST" duration-ms="1587" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:18:53 IST" name="afterMethod" finished-at="2025-04-22T11:18:55 IST" duration-ms="1913" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout of the appln]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:04:27 IST" name="beforeMethod" finished-at="2025-04-21T15:04:30 IST" duration-ms="3297" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:18:55 IST" name="beforeMethod" finished-at="2025-04-22T11:18:58 IST" duration-ms="2887" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login to the appln]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:04:30 IST" name="createOrgWithIndAndType" finished-at="2025-04-21T15:04:46 IST" duration-ms="16048" status="SKIP">
+        <test-method retried="true" signature="createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:18:58 IST" name="createOrgWithIndAndType" finished-at="2025-04-22T11:19:14 IST" duration-ms="16123" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot locate option with value: Electronics4381
+              <![CDATA[Cannot locate option with value: Electronics1551
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Electronics4381
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Electronics1551
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
@@ -401,31 +513,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- createOrgWithIndAndType -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:04:46 IST" name="afterMethod" finished-at="2025-04-21T15:04:48 IST" duration-ms="1606" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:19:14 IST" name="afterMethod" finished-at="2025-04-22T11:19:16 IST" duration-ms="1608" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout of the appln]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:04:48 IST" name="beforeMethod" finished-at="2025-04-21T15:04:48 IST" duration-ms="648" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:19:16 IST" name="beforeMethod" finished-at="2025-04-22T11:19:16 IST" duration-ms="724" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login to the appln]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:04:48 IST" name="createOrgWithIndAndType" finished-at="2025-04-21T15:05:07 IST" duration-ms="18345" status="SKIP">
+        <test-method retried="true" signature="createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:19:16 IST" name="createOrgWithIndAndType" finished-at="2025-04-22T11:19:35 IST" duration-ms="18109" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot locate option with value: Electronics3933
+              <![CDATA[Cannot locate option with value: Electronics613
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Electronics3933
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Electronics613
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
@@ -472,31 +584,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- createOrgWithIndAndType -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:05:07 IST" name="afterMethod" finished-at="2025-04-21T15:05:08 IST" duration-ms="1587" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:19:35 IST" name="afterMethod" finished-at="2025-04-22T11:19:36 IST" duration-ms="1533" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout of the appln]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:05:08 IST" name="beforeMethod" finished-at="2025-04-21T15:05:11 IST" duration-ms="2732" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:19:36 IST" name="beforeMethod" finished-at="2025-04-22T11:19:37 IST" duration-ms="614" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login to the appln]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:05:11 IST" name="createOrgWithIndAndType" finished-at="2025-04-21T15:05:27 IST" duration-ms="16166" status="FAIL">
+        <test-method signature="createOrgWithIndAndType()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:19:37 IST" name="createOrgWithIndAndType" finished-at="2025-04-22T11:19:55 IST" duration-ms="17937" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot locate option with value: Electronics4121
+              <![CDATA[Cannot locate option with value: Electronics3784
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Electronics4121
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Electronics3784
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
@@ -543,28 +655,430 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- createOrgWithIndAndType -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:05:27 IST" name="afterMethod" finished-at="2025-04-21T15:05:29 IST" duration-ms="1605" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:19:55 IST" name="afterMethod" finished-at="2025-04-22T11:19:56 IST" duration-ms="1611" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout of the appln]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:05:29 IST" name="afterClass" finished-at="2025-04-21T15:05:29 IST" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:19:56 IST" name="beforeMethod" finished-at="2025-04-22T11:19:57 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="createOrgWithPhnNoTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:19:57 IST" name="createOrgWithPhnNoTest" finished-at="2025-04-22T11:20:09 IST" duration-ms="11850" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at Organization_ModuleTest.CreateNewOrgTest.createOrgWithPhnNoTest(CreateNewOrgTest.java:121)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgWithPhnNoTest----started--]]>
+            </line>
+            <line>
+              <![CDATA[createOrgWithPhnNoTest--skipped--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhnNoTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:20:09 IST" name="afterMethod" finished-at="2025-04-22T11:20:10 IST" duration-ms="1323" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:20:10 IST" name="beforeMethod" finished-at="2025-04-22T11:20:13 IST" duration-ms="2739" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="createOrgWithPhnNoTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:20:13 IST" name="createOrgWithPhnNoTest" finished-at="2025-04-22T11:20:22 IST" duration-ms="9137" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at Organization_ModuleTest.CreateNewOrgTest.createOrgWithPhnNoTest(CreateNewOrgTest.java:121)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgWithPhnNoTest----started--]]>
+            </line>
+            <line>
+              <![CDATA[createOrgWithPhnNoTest--skipped--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhnNoTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:20:22 IST" name="afterMethod" finished-at="2025-04-22T11:20:23 IST" duration-ms="1251" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:20:23 IST" name="beforeMethod" finished-at="2025-04-22T11:20:26 IST" duration-ms="2560" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="createOrgWithPhnNoTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:20:26 IST" name="createOrgWithPhnNoTest" finished-at="2025-04-22T11:20:35 IST" duration-ms="9200" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at Organization_ModuleTest.CreateNewOrgTest.createOrgWithPhnNoTest(CreateNewOrgTest.java:121)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgWithPhnNoTest----started--]]>
+            </line>
+            <line>
+              <![CDATA[createOrgWithPhnNoTest--skipped--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhnNoTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:20:35 IST" name="afterMethod" finished-at="2025-04-22T11:20:36 IST" duration-ms="1258" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:20:36 IST" name="beforeMethod" finished-at="2025-04-22T11:20:39 IST" duration-ms="2594" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="createOrgWithPhnNoTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:20:39 IST" name="createOrgWithPhnNoTest" finished-at="2025-04-22T11:20:48 IST" duration-ms="8951" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at Organization_ModuleTest.CreateNewOrgTest.createOrgWithPhnNoTest(CreateNewOrgTest.java:121)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgWithPhnNoTest----started--]]>
+            </line>
+            <line>
+              <![CDATA[createOrgWithPhnNoTest--skipped--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhnNoTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:20:48 IST" name="afterMethod" finished-at="2025-04-22T11:20:49 IST" duration-ms="1269" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:20:49 IST" name="beforeMethod" finished-at="2025-04-22T11:20:52 IST" duration-ms="2622" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="createOrgWithPhnNoTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:20:52 IST" name="createOrgWithPhnNoTest" finished-at="2025-04-22T11:21:01 IST" duration-ms="8937" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at Organization_ModuleTest.CreateNewOrgTest.createOrgWithPhnNoTest(CreateNewOrgTest.java:121)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgWithPhnNoTest----started--]]>
+            </line>
+            <line>
+              <![CDATA[createOrgWithPhnNoTest--skipped--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhnNoTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:21:01 IST" name="afterMethod" finished-at="2025-04-22T11:21:02 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:21:02 IST" name="beforeMethod" finished-at="2025-04-22T11:21:04 IST" duration-ms="2485" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createOrgWithPhnNoTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:21:04 IST" name="createOrgWithPhnNoTest" finished-at="2025-04-22T11:21:14 IST" duration-ms="9519" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at Organization_ModuleTest.CreateNewOrgTest.createOrgWithPhnNoTest(CreateNewOrgTest.java:121)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgWithPhnNoTest----started--]]>
+            </line>
+            <line>
+              <![CDATA[createOrgWithPhnNoTest--failed--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhnNoTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:21:14 IST" name="afterMethod" finished-at="2025-04-22T11:21:15 IST" duration-ms="1281" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of the appln]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:21:15 IST" name="afterClass" finished-at="2025-04-22T11:21:16 IST" duration-ms="319" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close the browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:05:29 IST" name="afterTest" finished-at="2025-04-21T15:05:29 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:21:16 IST" name="afterTest" finished-at="2025-04-22T11:21:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[AT:Parallel Exe]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuit()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@58a9760d]" started-at="2025-04-21T15:05:29 IST" name="afterSuit" finished-at="2025-04-21T15:05:29 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuit()[pri:0, instance:Organization_ModuleTest.CreateNewOrgTest@5fbe4146]" started-at="2025-04-22T11:21:16 IST" name="afterSuit" finished-at="2025-04-22T11:21:16 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close DB connection]]>

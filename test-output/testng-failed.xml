@@ -5,10 +5,11 @@
     <classes>
       <class name="Organization_ModuleTest.CreateNewOrgTest">
         <methods>
-          <include name="beforeTest"/>
+          <include name="createOrgWithPhnNoTest"/>
+          <include name="afterMethod"/>
           <include name="beforeSuit"/>
           <include name="afterSuit"/>
-          <include name="afterMethod"/>
+          <include name="beforeTest"/>
           <include name="afterClass"/>
           <include name="beforeMethod"/>
           <include name="afterTest"/>

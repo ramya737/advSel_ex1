@@ -32,9 +32,9 @@ public class CreateOrgWithPhoneNumberTest extends Baseclass {
 		Excel_Utility ex_util = new Excel_Utility();
 		Java_Utility j_util = new Java_Utility();
 		int random = j_util.getRandomNumber();
-		String orgname = ex_util.FetchDataFromExcelFile("Organization", 7, 3) + random;
-		String industry = ex_util.FetchDataFromExcelFile("Organization", 7, 4);
-		String type = ex_util.FetchDataFromExcelFile("Organization", 7, 5);
+		String orgname = ex_util.FetchDataFromExcelFile("Organisation", 7, 3) + random;
+		String industry = ex_util.FetchDataFromExcelFile("Organisation", 7, 4);
+		String type = ex_util.FetchDataFromExcelFile("Organisation", 7, 5);
 
 		WebDriver_Utility w_util = new WebDriver_Utility();
 
@@ -82,7 +82,7 @@ public class CreateOrgWithPhoneNumberTest extends Baseclass {
 		// Click on org tab and delete the created org
 		ClassObject_Utility.getTest().log(Status.INFO,"Navigate to org tab and delete");
 		home.getOrg_tab();
-
+		Thread.sleep(3000);
 		driver.findElement(
 				By.xpath("//a[text()='" + orgname + "']/ancestor::tr[@bgcolor='white']/descendant::a[text()='del']"))
 				.click();
