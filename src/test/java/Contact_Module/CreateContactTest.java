@@ -25,7 +25,7 @@ import PomPages.CreateNewContactPomPage;
 import PomPages.HomePage;
 
 import junit.framework.Assert;
-
+//batch
 @Listeners(Liseners.Utility.LisenersClass.class)
 public class CreateContactTest extends Baseclass {
 	@Test(groups = "smoke", retryAnalyzer = Liseners.Utility.RetryAnalyser_Utility.class)
